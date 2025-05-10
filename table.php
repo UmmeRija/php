@@ -1,5 +1,5 @@
 <?php
-include "connc.php";
+include "connection.php";
 $SQL = "SELECT * FROM class";
 $result = mysqli_query($con , $SQL);
 ?>
