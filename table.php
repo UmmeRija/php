@@ -76,6 +76,8 @@ $result = mysqli_query($con , $SQL);
                         <td><?php echo $row['Gender']; ?></td>
                         <td><?php echo $row['City']; ?></td>
                         <td><?php echo $row['Faculty']; ?></td>
+                        <td><a href="update.php?Id=<?php echo$row['Id'];  ?>">Delete</a></td>
+                        <td><a href="delete.php?Id=<?php echo$row['Id'];  ?>">Edit</a></td>
                     </tr>
                     <?php } ?>
                 </tbody>
