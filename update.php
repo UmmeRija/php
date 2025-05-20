@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 include 'connection.php';
 
 $p_id = $_POST[$Id];
@@ -23,4 +23,4 @@ if(mysqli_num_rows(($query)){
     <?php
 })
 ?>
-?>
+?> -->
